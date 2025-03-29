@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "obineller41-simple-vide-16"
-          entrypoint: "_worker.ts"
+          entrypoint: ""
           root: "dist"
           
           
