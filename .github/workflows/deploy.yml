@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "obineller41-simple-vide-99"
-          entrypoint: "https://deno.land/std@0.217.0/http/file_server.ts"
+          entrypoint: "https://github.com/obineller411/simple-video-player/blob/main/_worker.ts"
           root: "dist"
           
           
