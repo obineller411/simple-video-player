@@ -37,8 +37,8 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "obineller41-simple-vide-88"
-          entrypoint: "https://deno.land/std@0.217.0/http/file_server.ts"
+          project: "obineller41-simple-vide-16"
+          entrypoint: "_worker.ts"
           root: "dist"
           
           
